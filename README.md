@@ -8,4 +8,10 @@ El repositorio contiene el código fuente en Latex del documento, el código Pyt
 
 ## Compilación
 
-
+```
+$ latex matched_filter
+$ bibtex matched_filter
+$ latex matched_filter
+$ latex matched_filter
+$ dvipdf matched_filter.dvi
+```
